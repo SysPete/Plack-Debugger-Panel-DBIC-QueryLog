@@ -191,6 +191,12 @@ which this module borrows heavily from.
 
 Nowhere near enough docs and no tests so expect something to break somewhere.
 
+This is currently 'works for me' quality.
+
+Please report bugs via:
+
+L<https://github.com/SysPete/Plack-Debugger-Panel-DBIC-QueryLog/issues>
+
 =head1 SEE ALSO
 
 L<Plack::Debugger>, L<Plack::Middleware::Debug::DBIC::QueryLog>,
