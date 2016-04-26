@@ -4,7 +4,7 @@ Plack::Debugger::Panel::DBIC::QueryLog - DBIC query log panel for Plack::Debugge
 
 # VERSION
 
-Version 0.01
+Version 0.001
 
 # SYNOPSIS
 
@@ -80,11 +80,17 @@ query alaysis performed by [DBIx::Class::QueryLog::Analyzer](https://metacpan.or
 For full details of how to setup [Catalyst](https://metacpan.org/pod/Catalyst) to use this panel and also for
 a full background of the design of this module see
 [https://metacpan.org/pod/Plack::Middleware::Debug::DBIC::QueryLog](https://metacpan.org/pod/Plack::Middleware::Debug::DBIC::QueryLog)
-which this module borrows heavily from.
+which this module steals heavily from.
 
 # BUGS
 
 Nowhere near enough docs and no tests so expect something to break somewhere.
+
+This is currently 'works for me' quality.
+
+Please report bugs via:
+
+[https://github.com/SysPete/Plack-Debugger-Panel-DBIC-QueryLog/issues](https://github.com/SysPete/Plack-Debugger-Panel-DBIC-QueryLog/issues)
 
 # SEE ALSO
 

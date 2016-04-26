@@ -14,11 +14,11 @@ Plack::Debugger::Panel::DBIC::QueryLog - DBIC query log panel for Plack::Debugge
 
 =head1 VERSION
 
-Version 0.01
+Version 0.001
 
 =cut
 
-our $VERSION = '0.01';
+our $VERSION = '0.001';
 
 sub new {
     my $class = shift;
@@ -185,7 +185,7 @@ query alaysis performed by L<DBIx::Class::QueryLog::Analyzer> (by default).
 For full details of how to setup L<Catalyst> to use this panel and also for
 a full background of the design of this module see
 L<https://metacpan.org/pod/Plack::Middleware::Debug::DBIC::QueryLog>
-which this module borrows heavily from.
+which this module steals heavily from.
 
 =head1 BUGS
 

@@ -1,5 +1,5 @@
 Revision history for Plack-Debugger-Panel-DBIC-QueryLog
 
-0.01    Date/time
-        First version, released on an unsuspecting world.
+0.001 Tue 26 Apr 19:40:21 CEST 2016
 
+    * Initial release, warts and all

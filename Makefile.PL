@@ -17,11 +17,11 @@ WriteMakefile(
     PREREQ_PM => {
         'DBIx::Class::QueryLog'             => 0,
         'DBIx::Class::QueryLog::Analyzer'   => 0,
-        'Moo'                               => 2,
         'Plack'                             => 0,
         'Plack::Middleware::DBIC::QueryLog' => '0.05',
         'Plack::Debugger'                   => 0,
         'Plack::Debugger::Panel'            => 0,
+        'SQL::Abstract'                     => '1.70',
         'Text::MicroTemplate'               => 0,
     },
     dist => { COMPRESS => 'gzip -9f', SUFFIX => 'gz', },
