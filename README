@@ -3,7 +3,7 @@ NAME
     Plack::Debugger
 
 VERSION
-    Version 0.001
+    Version 0.002
 
 SYNOPSIS
     Adds a debug panel and querylog object for logging DBIx::Class queries.

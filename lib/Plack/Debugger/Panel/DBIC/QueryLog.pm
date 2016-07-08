@@ -14,11 +14,13 @@ Plack::Debugger::Panel::DBIC::QueryLog - DBIC query log panel for Plack::Debugge
 
 =head1 VERSION
 
-Version 0.001
+Version 0.002
 
 =cut
 
-our $VERSION = '0.001';
+our $VERSION = '0.002';
+
+my $_template = join( '', <DATA> );
 
 sub new {
     my $class = shift;
@@ -98,9 +100,8 @@ sub sqla_tree {
 sub template {
     my $self = shift;
     if ( !defined $self->{_template} ) {
-        my $template = join( '', <DATA> );
         $self->{_template} = Text::MicroTemplate->new(
-            template   => $template,
+            template   => $_template,
             tag_start  => '<%',
             tag_end    => '%>',
             line_start => '%',

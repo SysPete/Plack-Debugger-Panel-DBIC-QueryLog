@@ -4,7 +4,7 @@ Plack::Debugger::Panel::DBIC::QueryLog - DBIC query log panel for Plack::Debugge
 
 # VERSION
 
-Version 0.001
+Version 0.002
 
 # SYNOPSIS
 
